@@ -6,6 +6,11 @@ import com.theatmoclub.userquizassessment.dao.QuizDao;
 
 import java.util.List;
 
+/**
+ * <h1>Service Implements</h1>
+ *
+ * <p>Service Implements for user</p>
+ */
 public class QuizDaoServiceImplements implements QuizDaoService {
 
     private static final QuizDao QUIZ_DAO = new QuizDao();
