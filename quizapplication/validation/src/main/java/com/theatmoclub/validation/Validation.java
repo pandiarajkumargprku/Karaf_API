@@ -1,5 +1,10 @@
 package com.theatmoclub.validation;
 
+/**
+ * <h1>View</h1>
+ * 
+ * <p>Name, Email and password Validation </p>
+ */
 public class Validation {
 
     /**
