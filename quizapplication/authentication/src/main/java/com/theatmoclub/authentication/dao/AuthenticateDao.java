@@ -12,9 +12,7 @@ import java.sql.SQLException;
 /**
  * <h1>Authentication Dao</h1>
  *
- *   <p> This Controller getting the request from the main and
- *       gives in to the service.
- *   </p>
+ *   <p> SignUp and SignIn for both admin and user </p>
  *
  *   @author PandiarajkumarG
  */
