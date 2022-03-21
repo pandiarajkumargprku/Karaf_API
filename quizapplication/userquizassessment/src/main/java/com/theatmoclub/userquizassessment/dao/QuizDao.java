@@ -8,6 +8,11 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * <h1>Quiz Dao</h1>
+ *
+ * <p>Database for Quiz round Details</p>
+ */
 public class QuizDao {
 
     /**
