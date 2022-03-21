@@ -8,6 +8,13 @@ import com.theatmoclub.quizdetail.service.Daoservice;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * <h1>Controller</h1>
+ *
+ *   <p> This Controller getting the request and
+ *       gives in to the service.
+ *   </p>
+ */
 public class CrudController {
 
     private static final Daoservice DAO_SERVICE = new DaoServiceImplements();
