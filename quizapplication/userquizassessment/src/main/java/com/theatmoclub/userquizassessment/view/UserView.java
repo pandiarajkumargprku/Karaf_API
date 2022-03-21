@@ -8,6 +8,11 @@ import com.theatmoclub.validation.Validation;
 import java.util.List;
 import java.util.Scanner;
 
+/**
+ * <h1>View</h1>
+ *
+ * <p>User view round details</p>
+ */
 public class UserView {
 
     private static final Scanner SCANNER = new Scanner(System.in);
