@@ -1,5 +1,10 @@
 package com.theatmoclub.userquizassessment.validation;
 
+/**
+ * <h1>Validation</h1>
+ *
+ * <p>validation for marks</p>
+ */
 public class UserValidation {
 
     /**
