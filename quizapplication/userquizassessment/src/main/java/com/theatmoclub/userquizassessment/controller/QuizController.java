@@ -6,6 +6,13 @@ import com.theatmoclub.userquizassessment.service.QuizDaoServiceImplements;
 
 import java.util.List;
 
+/**
+ * <h1>Controller</h1>
+ *
+ *   <p> This Controller getting the request and
+ *      gives in to the service.
+ *  </p>
+ */
 public class QuizController {
 
     private static final QuizDaoService QUIZ_DAO_SERVICE = new QuizDaoServiceImplements();
