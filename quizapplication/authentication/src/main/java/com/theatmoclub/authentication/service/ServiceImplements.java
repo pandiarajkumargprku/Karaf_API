@@ -5,6 +5,11 @@ import com.theatmoclub.authentication.exception.PasswordNotFoundException;
 import com.theatmoclub.authentication.exception.MailIdNotFoundException;
 import com.theatmoclub.authentication.model.User;
 
+/**
+* <h1> Servcie Implementation</h1>
+*
+* <p> Service Implementation for Authentication </p>
+**/
 public class ServiceImplements implements Service {
 
     private static final AuthenticateDao AUTHENTICATE_DAO = new AuthenticateDao();
