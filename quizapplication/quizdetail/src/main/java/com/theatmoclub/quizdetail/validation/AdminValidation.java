@@ -1,5 +1,10 @@
 package com.theatmoclub.quizdetail.validation;
 
+/**
+ * <h1>Validation</h1>
+ *
+ * <p>Validation for Crud operation</p>
+ */
 public class AdminValidation {
 
     /**
