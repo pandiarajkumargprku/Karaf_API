@@ -9,6 +9,11 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * <h1>Crud Database</h1>
+ *
+ * <p>Database for Crud Operation</p>
+ */
 public class CrudDao {
 
     /**
