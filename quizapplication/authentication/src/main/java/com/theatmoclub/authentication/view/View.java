@@ -9,6 +9,11 @@ import com.theatmoclub.userquizassessment.view.UserView;
 
 import java.util.Scanner;
 
+/**
+ * <h1>View</h1>
+ *
+ * <p>View for Authentication </p>
+ */
 public class View {
 
     public static final Scanner SCANNER = new Scanner(System.in);
