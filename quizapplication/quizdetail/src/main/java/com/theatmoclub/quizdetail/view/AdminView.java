@@ -6,6 +6,12 @@ import com.theatmoclub.quizdetail.validation.AdminValidation;
 
 import java.util.Scanner;
 import java.util.List;
+
+/**
+ * <h1>View</h1>
+ *
+ * <p>View for Admin </p>
+ */
 public class AdminView {
 
     public static final Scanner SCANNER = new Scanner(System.in);
