@@ -8,6 +8,11 @@ import com.theatmoclub.quizdetail.exception.IdAlreayExistsException;
 
 import java.util.List;
 
+/**
+ * <h1>Service Implements</h1>
+ *
+ * <p>Service Implementation for Crud operation</p>
+ */
 public class DaoServiceImplements implements Daoservice {
 
     private static final CrudDao CRUD_DAO = new CrudDao();
