@@ -1,0 +1,14 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+/Compiler.xml
+/jarRepositories.xml
+/misc.xml
+/runConfiguration.xml
+/uiDesigner.xml
+/admincrudoperation/taget
+/authenticationj/target
+/databaseconnetion/target
+/exception/target
+/userquizassessment/target
+/validation/target
