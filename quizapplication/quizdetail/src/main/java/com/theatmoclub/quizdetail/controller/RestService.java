@@ -1,6 +1,7 @@
 package com.theatmoclub.quizdetail.controller;
 
 import com.fasterxml.jackson.jaxrs.json.JacksonJsonProvider;
+import com.theatmoclub.databaseconncetion.dbconnection.DatabaseConnection;
 import org.apache.cxf.BusFactory;
 import org.apache.cxf.endpoint.Server;
 import org.apache.cxf.jaxrs.JAXRSServerFactoryBean;
@@ -9,7 +10,9 @@ import org.osgi.service.component.annotations.Component;
 import org.osgi.service.component.annotations.Deactivate;
 import org.osgi.service.component.annotations.Reference;
 
-@Component(immediate = true)
+import java.util.Map;
+
+@Component(immediate = true, name = "database")
 public class RestService {
 
     private Server server;
@@ -18,15 +21,19 @@ public class RestService {
     private Api api;
 
     @Activate
-    public void activate() {
+    public void activate(Map<String,String> properties) {
+
         try {
+            DatabaseConnection.database(properties);
             JAXRSServerFactoryBean bean = new JAXRSServerFactoryBean();
+
             bean.setAddress("/quiz");
             bean.setBus(BusFactory.getDefaultBus());
             bean.setProvider(new JacksonJsonProvider());
             bean.setServiceBean(api);
 
             server = bean.create();
+
         } catch(Exception exception) {
             exception.printStackTrace();
         }
