@@ -46,4 +46,14 @@ public class Controller {
     public static boolean signUpInsert(final int choice, final User user) {
         return SERVICE.insertSignUpDetail(choice, user);
     }
+    
+    /**
+     * SignUp admin and user details
+     *
+     * @param choice
+     * @param user
+     */
+    public static boolean signUpInsert(final int choice, final User user) {
+        return SERVICE.insertSignUpDetail(choice, user);
+    }
 }
