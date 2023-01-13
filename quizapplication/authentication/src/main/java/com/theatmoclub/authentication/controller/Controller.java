@@ -59,5 +59,5 @@ public class Controller {
     
      public static boolean signUpInsert(final int choice, final User user) {
         return SERVICE.insertSignUpDetail(choice, user);
-    }
+    }xdfsar
 }
