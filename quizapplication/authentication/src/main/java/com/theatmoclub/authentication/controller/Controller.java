@@ -34,7 +34,7 @@ public class Controller {
      * @param password
      */
     public static boolean checkPassword(final int choice, final String password) {
-        return SERVICE.checkPassword(choice, password);
+        return SERVICE.checkPassword(choice, password);dfsfsf
     }
 
     /**
